@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
   const keyword = req.query.keyword.toLowerCase()
   const restaurants = restaurantList.results.filter(restaurants => {
-    return restaurants.name_en.toLowerCase().includes(keyword)
+    return restaurants.name_en.toLowerCase().includes(keyword) || restaurants.category.includes(keyword)
   })
   res.render('index', { restaurants: restaurants, keyword: req.query.keyword })
   // res.send('this is my movie_list web app')
