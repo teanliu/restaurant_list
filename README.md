@@ -1,4 +1,4 @@
-# Movie List
+# Restaurant List
 A simple web application for gourmet
 
 ## Features
