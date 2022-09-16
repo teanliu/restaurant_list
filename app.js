@@ -31,6 +31,6 @@ app.get('/restaurants/:id', (req, res) => {
   res.render('show', {restaurants: restaurants[0]})
 })
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log('this is my web page')
 })
