@@ -10,4 +10,9 @@ router.get('/', (req, res) => {
     .catch(error => console.log(error))
 })
 
+// new page
+router.get('/new', (req, res) => {
+  return res.render('new')
+})
+
 module.exports = router

@@ -8,6 +8,7 @@ const routes = require('./routes')
 require('./config/mongoose')
 
 const app = express()
+const Restaurant = require('./models/restaurant')
 
 
 // setting template engine

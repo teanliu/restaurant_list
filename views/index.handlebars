@@ -23,7 +23,7 @@
               </select>
             </div>
             <div class="input-group-append" style="position: fixed; right: 10px; bottom: 10px;">
-              <a href="/restaurants/new" class="btn btn-major"><i class="fas fa-file-circle-plus"></i></a>
+              <a href="/new" class="btn btn-major"><i class="fas fa-file-circle-plus"></i></a>
             </div>
 
           </div>
@@ -50,8 +50,8 @@
               {{this.rating}}
               <i class="fas fa-star fa-xs"></i>
               <div class="d-flex align-items-center justify-content-around">
-                <a class="d-flex mr-5" href="./restaurants/{{ this._id }}/edit" style="vertical-align: middle;">edit</a>
-                <form action="./restaurants/{{ this._id }}?_method=DELETE" method="POST"
+                <a class="d-flex mr-5" href="/restaurants/{{ this._id }}/edit" style="vertical-align: middle;">edit</a>
+                <form action="/restaurants/{{ this._id }}?_method=DELETE" method="POST"
                   style="display: inline; margin: 0; padding: 0; vertical-align: middle;">
                   <button class="btn btn-link" type="submit" style="vertical-align: middle; margin: 0; padding: 0;">delete</button>
                 </form>

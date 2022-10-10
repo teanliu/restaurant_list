@@ -62,11 +62,12 @@ router.get('/:id', (req, res) => {
     .catch(error => console.log(error))
 })
 
-// new page
-router.get('/new', (req, res) => {
-  return res.render('new')
-})
+// // new page
+// router.get('/new', (req, res) => {
+//   return res.render('new')
+// })
 
+// new page post
 router.post('/', (req, res) => {
   const name_en = req.body.name_en
   const category = req.body.category
