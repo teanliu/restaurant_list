@@ -78,6 +78,19 @@ header {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.form-span {
+  display: block;
+}
+
+.form-row input {
+  padding: 0.3rem;
+}
+
+.form-row textarea {
+  padding: 0.3rem;
+}
+
+
 @media screen and (max-width: 992px) {
   
   .card img{

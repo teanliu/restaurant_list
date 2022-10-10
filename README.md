@@ -7,3 +7,4 @@ A simple web application for gourmet
 
 ### Searching
 type the title of the restaurants in search bar
+
